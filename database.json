@@ -1,0 +1,246 @@
+{
+  "users": {
+    "12816245470@s.whatsapp.net": {
+      "exp": 1506,
+      "limit": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Kukuh",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "call": 0,
+      "role": "Warrior V",
+      "autolevelup": false,
+      "pc": 1633173665817,
+      "warning": 0,
+      "pasangan": ""
+    },
+    "6281548716351@s.whatsapp.net": {
+      "exp": 0,
+      "limit": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Y",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "call": 0,
+      "role": "Bronze",
+      "autolevelup": false,
+      "pc": 0,
+      "warning": 0,
+      "pasangan": ""
+    },
+    "62895634494819@s.whatsapp.net": {
+      "exp": 23,
+      "limit": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Genta",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "call": 0,
+      "role": "Warrior V",
+      "autolevelup": false,
+      "pc": 0,
+      "warning": 0,
+      "pasangan": ""
+    },
+    "6285938561069@s.whatsapp.net": {
+      "exp": 27,
+      "limit": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Severine",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "call": 0,
+      "role": "Warrior V",
+      "autolevelup": false,
+      "pc": 0,
+      "warning": 0,
+      "pasangan": ""
+    },
+    "6287778628160@s.whatsapp.net": {
+      "exp": 0,
+      "limit": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "VICKY J",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "call": 0,
+      "role": "Bronze",
+      "autolevelup": false,
+      "pc": 0,
+      "warning": 0,
+      "pasangan": ""
+    },
+    "6283101232594@s.whatsapp.net": {
+      "exp": 7,
+      "limit": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": ".",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "level": 0,
+      "call": 0,
+      "role": "Warrior V",
+      "autolevelup": false,
+      "pc": 0,
+      "warning": 0,
+      "pasangan": ""
+    }
+  },
+  "chats": {
+    "14092765147-1607652055@g.us": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "descUpdate": true,
+      "stiker": false,
+      "delete": true,
+      "antiLink": false,
+      "expired": 0,
+      "antiBadword": true,
+      "viewonce": true
+    },
+    "6285951481437-1552988386@g.us": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "descUpdate": true,
+      "stiker": false,
+      "delete": true,
+      "antiLink": false,
+      "expired": 0,
+      "antiBadword": true,
+      "viewonce": true
+    },
+    "12816245470@s.whatsapp.net": {
+      "isBanned": false,
+      "welcome": false,
+      "detect": false,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "descUpdate": true,
+      "stiker": false,
+      "delete": true,
+      "antiLink": false,
+      "expired": 0,
+      "antiBadword": true,
+      "viewonce": true
+    }
+  },
+  "stats": {
+    "menu.js": {
+      "total": 81,
+      "success": 81,
+      "last": 1633185917420,
+      "lastSuccess": 1633185917420
+    },
+    "math.js": {
+      "total": 4,
+      "success": 2,
+      "last": 1633170400443,
+      "lastSuccess": 1633170400443
+    },
+    "donasi - Salin.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1633171647229,
+      "lastSuccess": 1633171647229
+    },
+    "topupff.js": {
+      "total": 7,
+      "success": 7,
+      "last": 1633184841289,
+      "lastSuccess": 1633184841289
+    },
+    "topup.js": {
+      "total": 14,
+      "success": 14,
+      "last": 1633184833098,
+      "lastSuccess": 1633184833098
+    },
+    "donasi.js": {
+      "total": 4,
+      "success": 4,
+      "last": 1633185221007,
+      "lastSuccess": 1633185221007
+    },
+    "payff.js": {
+      "total": 6,
+      "success": 6,
+      "last": 1633184909086,
+      "lastSuccess": 1633184909086
+    },
+    "payml.js": {
+      "total": 5,
+      "success": 5,
+      "last": 1633184901512,
+      "lastSuccess": 1633184901512
+    },
+    "topupml.js": {
+      "total": 4,
+      "success": 4,
+      "last": 1633184842475,
+      "lastSuccess": 1633184842475
+    },
+    "creator.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1633185961325,
+      "lastSuccess": 1633185961325
+    }
+  },
+  "msgs": {},
+  "sticker": {},
+  "settings": {
+    "6281548716351@s.whatsapp.net": {
+      "anon": true,
+      "anticall": true,
+      "antispam": true,
+      "antitroli": true,
+      "backup": false,
+      "backupDB": 0,
+      "groupOnly": false,
+      "jadibot": false,
+      "nsfw": true,
+      "status": 1633185960346
+    }
+  }
+}
