@@ -23,6 +23,7 @@ let handler = async (m, { conn }) => await conn.sendButtonLoc(m.chat, await (awa
 └────
 `.trim(), '© kuhxbot', 'MENU AWAL', '.menu', m)
 handler.help = ['ingfo']
+handler.tags = ['main']
 handler.command = /^(info|ingfo|\?)$/i
 
 module.exports = handler
