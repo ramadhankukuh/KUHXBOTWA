@@ -262,6 +262,13 @@ module.exports = {
             fail('admin', m, this)
             continue
           }
+               if (plugin.ingfo && m.isGroup && !m.isGroup) { // 
+
+            fail('ingfo', m, this)
+
+            continue
+
+        }
           if (plugin.topup && m.isGroup && !m.isGroup) { // 
             fail('topup', m, this)
             continue
