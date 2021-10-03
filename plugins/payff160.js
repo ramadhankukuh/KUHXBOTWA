@@ -1,8 +1,8 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => await conn.sendButtonLoc(m.chat, await (await fetch(fla + 'pembayaran')).buffer(), `
 ┌〔 TOPUP • FREE FIRE 〕
-├ Nominal : 70 Diamond
-├ Harga : Rp9.500,00
+├ Nominal : 160 Diamond
+├ Harga : Rp22.000,00
 ├ Order Klik : wa.me/12816245470
 └────
 
@@ -19,7 +19,7 @@ let handler = async (m, { conn }) => await conn.sendButtonLoc(m.chat, await (awa
 ├ Indomaret
 └────
 `.trim(), '© kuhxbot', 'MENU AWAL', '.menu', m)
-handler.topupff = ['payff70']
-handler.command = /^(payff70|orderff70|\?)$/i
+handler.topupff = ['payff160']
+handler.command = /^(payff160|orderff160|\?)$/i
 
 module.exports = handler
