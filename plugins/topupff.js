@@ -75,23 +75,186 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             {
               "rows": [
                 {
-                  "title": `70`,
+
+                  "title": `70 Diamond = 9.500`,
+
                   "description": "",
+
+                  "rowId": ".payff70"
+
+                }, {
+
+                  "title": "100 Diamond = 14.500",
+
+                  "description": "",
+
+                  "rowId": ".payff100"
+
+                }, {
+
+                  "title": "140 Diamond = 19.000",
+
+                  "description": "",
+
                   "rowId": ".payff"
 
                 }, {
-                  "title": "140",
+
+                  "title": "160 Diamond = 22.000",
+
                   "description": "",
+
                   "rowId": ".payff"
+
+                }, {
+
+                  "title": "210 Diamond = 28.500",
+
+                  "description": "",
+
+                  "rowId": ".payff
+
+                }, {
+
+                  "title": "280 Diamond = 38.000",
+
+                  "description": "",
+
+                  "rowId": ".payff"
+
+                }, {
+
+                  "title": "355 Diamond = 48.000",
+
+                  "description": "",
+
+                  "rowId": ".payff
+
+                }, {
+
+                  "title": "425 Diamond = 58.000",
+
+                  "description": "",
+
+                  "rowId": ".payff"
+
+                }, {
+
+                  "title": "500 Diamond = 68.000",
+
+                  "description": "",
+
+                  "rowId": ".payff
+
+                }, {
+
+                  "title": "635 Diamond = 86.000",
+
+                  "description": "",
+
+                  "rowId": ".payff"
+
+                }, {
+
+                  "title": "720 Diamond = 95.000",
+
+                  "description": "",
+
+                  "rowId": ".payff
+
+                }, {
+
+                  "title": "790 Diamond = 104.500 ",
+
+                  "description": "",
+
+                  "rowId": ".payff"
+
+                }, {
+
+                  "title": "860 Diamond = 115.000",
+
+                  "description": "",
+
+                  "rowId": ".payff
+
+                }, {
+
+                  "title": "930 Diamond = 125.000",
+
+                  "description": "",
+
+                  "rowId": ".payff"
+
+                }, {
+
+                  "title": "1.000 Diamond = 135.000",
+
+                  "description": "",
+
+                  "rowId": ".payff
+
+                }, {
+
+                  "title": "1.075 Diamond = 143.000",
+
+                  "description": "",
+
+                  "rowId": ".payff"
+
+                }, {
+
+                  "title": "1.215 Diamond = 162.000",
+
+                  "description": "",
+
+                  "rowId": ".payff
+
+                }, {
+
+                  "title": "1.440 Diamond = 190.000",
+
+                  "description": "",
+
+                  "rowId": ".payff"
+
+                }, {
+
+                  "title": "2.000 Diamond = 260.000",
+
+                  "description": "",
+
+                  "rowId": ".payff
+
+                }, {
+
+                  "title": "7.290 Diamond = 950.000",
+
+                  "description": "",
+
+                  "rowId": ".payff"
+
+                }, {
+
+                  "title": "Member Mingguan = 29.000",
+
+                  "description": "",
+
+                  "rowId": ".payff
+
+                }, {
+
+                  "title": "Member Bulanan = 145.000",
+
+                  "description": "",
+
+                  "rowId": ".payff"
+
                 }
+
               ]
+
             }
-          ], "contextInfo": {
-            "stanzaId": m.key.id,
-            "participant": m.sender,
-            "quotedMessage": m.message
-          }
-        }
       }, {}), { waitForAck: true })
     }
     // gunakan ini jika kamu menggunakan whatsapp bisnis
