@@ -50,7 +50,7 @@ module.exports = {
           if (!('pasangan' in user)) user.pasangan = ''
         } else global.db.data.users[m.sender] = {
           exp: 0,
-          limit: 10,
+          limit: 50,
           lastclaim: 0,
           registered: false,
           name: this.getName(m.sender),
@@ -276,6 +276,94 @@ module.exports = {
         }
           if (plugin.payff && m.isGroup && !m.isGroup) { // 
             fail('payff', m, this)
+            continue
+        }
+          if (plugin.payff70 && m.isGroup && !m.isGroup) { // 
+            fail('payff70', m, this)
+            continue
+        }
+          if (plugin.payff100 && m.isGroup && !m.isGroup) { // 
+            fail('payff100', m, this)
+            continue
+        }
+          if (plugin.payff140 && m.isGroup && !m.isGroup) { // 
+            fail('payff140', m, this)
+            continue
+        }
+          if (plugin.payff160 && m.isGroup && !m.isGroup) { // 
+            fail('payff160', m, this)
+            continue
+        }
+          if (plugin.payff210 && m.isGroup && !m.isGroup) { // 
+            fail('payff210', m, this)
+            continue
+        }
+          if (plugin.payff280 && m.isGroup && !m.isGroup) { // 
+            fail('payff280', m, this)
+            continue
+        }
+          if (plugin.payff355 && m.isGroup && !m.isGroup) { // 
+            fail('payff355', m, this)
+            continue
+        }
+          if (plugin.payff425 && m.isGroup && !m.isGroup) { // 
+            fail('payff425', m, this)
+            continue
+        }
+          if (plugin.payff500 && m.isGroup && !m.isGroup) { // 
+            fail('payff500', m, this)
+            continue
+        }
+          if (plugin.payff635 && m.isGroup && !m.isGroup) { // 
+            fail('payff635', m, this)
+            continue
+        }
+          if (plugin.payff720 && m.isGroup && !m.isGroup) { // 
+            fail('payff720', m, this)
+            continue
+        }
+          if (plugin.payff720 && m.isGroup && !m.isGroup) { // 
+            fail('payff790', m, this)
+            continue
+        }
+          if (plugin.payff860 && m.isGroup && !m.isGroup) { // 
+            fail('payff860', m, this)
+            continue
+        }
+          if (plugin.payff963 && m.isGroup && !m.isGroup) { // 
+            fail('payff930', m, this)
+            continue
+        }
+          if (plugin.payff1000 && m.isGroup && !m.isGroup) { // 
+            fail('payff1000', m, this)
+            continue
+        }
+          if (plugin.payff1075 && m.isGroup && !m.isGroup) { // 
+            fail('payff1075', m, this)
+            continue
+        }
+          if (plugin.payff1215 && m.isGroup && !m.isGroup) { // 
+            fail('payff1215', m, this)
+            continue
+        }
+          if (plugin.payff1440 && m.isGroup && !m.isGroup) { // 
+            fail('payff1440', m, this)
+            continue
+        }
+          if (plugin.payff2000 && m.isGroup && !m.isGroup) { // 
+            fail('payff2000', m, this)
+            continue
+        }
+          if (plugin.payff7290 && m.isGroup && !m.isGroup) { // 
+            fail('payff7290', m, this)
+            continue
+        }
+          if (plugin.payffmm && m.isGroup && !m.isGroup) { // 
+            fail('payffmm', m, this)
+            continue
+        }
+          if (plugin.payffmb && m.isGroup && !m.isGroup) { // 
+            fail('payffmb', m, this)
             continue
         }
         if (plugin.payml && m.isGroup && !m.isGroup) { // 
