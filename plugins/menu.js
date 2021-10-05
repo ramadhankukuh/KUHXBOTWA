@@ -7,17 +7,23 @@ let moment = require('moment-timezone')
 const defaultMenu = {
   before: `
 ┌─〔 %me 〕
-├ Hai, %name!
-│
+└────
+
+┌─〔 TIME 〕
+├ Tanggal: *%week %weton, %date*
+├ Tanggal Islam: *%dateIslamic*
+├ Waktu: *%time*
+└────
+
+┌─〔 INFO SAYA 〕
+├ Hai, %name
 ├ Tersisa *%limit Limit*
 ├ Role *%role*
 ├ Level *%level (%exp / %maxexp)* [%xp4levelup]
 ├ %totalexp XP secara Total
-│ 
-├ Tanggal: *%week %weton, %date*
-├ Tanggal Islam: *%dateIslamic*
-├ Waktu: *%time*
-│
+└────
+
+┌─〔 INFO BOT 〕
 ├ Uptime: *%uptime (%muptime)*
 ├ Database: %rtotalreg dari %totalreg
 ├ Github:
@@ -378,7 +384,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send3ButtonLoc(m.chat, await (await fetch(fla + teks)).buffer(), text.trim(), 'apabila ingin topup diamond bisa klik dibawah ini...', 'TOP UP', '.topup', 'DEVELOPER', '.owner', 'DONASI', '.donasi', m)
+    await conn.send3ButtonLoc(m.chat, await (await fetch(fla + teks)).buffer(), text.trim(), 'apabila ingin membeli voucher game bisa klik dibawah ini...', 'TOP UP', '.topup', 'INGFO', '.donasi', 'JODOHKU', '.jodohku', m)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error, silahkan hubungi owner', m)
     throw e
