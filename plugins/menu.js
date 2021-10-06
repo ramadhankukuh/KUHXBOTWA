@@ -12,7 +12,7 @@ const defaultMenu = {
 ┌─〔 TIME 〕
 ├ Tanggal: *%week %weton, %date*
 ├ Tanggal Islam: *%dateIslamic*
-├ Waktu: *%time*
+├ Waktu: *%time* (UTC - 0)
 └────
 
 ┌─〔 INFO SAYA 〕
